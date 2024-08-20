@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, hsl(61, 75%, 69%) 0%, #ACB6E5 100%); /* Gradient background */
+}
+
+.container {
+    background-color: #ffffff; /* White background for the container */
+    padding: 30px;
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow for emphasis */
+    text-align: center;
+    width: 320px; /* Fixed width for the container */
+    border: 1px solid #dddddd; /* Light border */
+    background: linear-gradient(135deg, #f8ffff 0%, #e0f7fa 100%); /* Soft gradient inside the container */
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #333333; /* Dark grey text */
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 14px;
+    color: #555555; /* Medium grey text */
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #f7f9fc; /* Light blue-grey background inside input */
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: white;
+    background-color: hsl(61, 100%, 50%); /* Blue button */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: hsl(56, 100%, 35%); /* Darker blue on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333333; /* Dark grey text */
+    font-weight: bold; /* Emphasize the result */
+}
